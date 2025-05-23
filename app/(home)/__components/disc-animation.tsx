@@ -24,37 +24,37 @@ const DiscAnimation = () => {
         receiveShadow={false}
       >
         <circleGeometry args={[1.93, 100]} />
-        <meshStandardMaterial map={texture} transparent />
+        <meshBasicMaterial map={texture} transparent />
       </mesh>
 
       <mesh position={[0.6, 0, 0.16]} castShadow={false} receiveShadow={false}>
         <circleGeometry args={[0.02, 50]} />
-        <meshStandardMaterial color={"#fff"} />
+        <meshBasicMaterial color={"#fff"} />
       </mesh>
 
       <mesh position={[0.6, 0, 0.15]} castShadow={false} receiveShadow={false}>
         <circleGeometry args={[0.3, 50]} />
-        <meshStandardMaterial color={"#BF9742"} />
+        <meshBasicMaterial color={"#BF9742"} />
       </mesh>
 
       <mesh position={[0.6, 0, 0.14]} castShadow={false} receiveShadow={false}>
         <circleGeometry args={[0.35, 50]} />
-        <meshStandardMaterial color={"#DA498D"} />
+        <meshBasicMaterial color={"#DA498D"} />
       </mesh>
 
       <mesh position={[0.6, 0, 0.13]} castShadow={false} receiveShadow={false}>
         <circleGeometry args={[0.79, 50]} />
-        <meshStandardMaterial color={"#BF9742"} />
+        <meshBasicMaterial color={"#BF9742"} />
       </mesh>
 
       <mesh position={[0.6, 0, 0.12]} castShadow={false} receiveShadow={false}>
         <circleGeometry args={[1.1, 50]} />
-        <meshStandardMaterial color={"white"} />
+        <meshBasicMaterial color={"white"} />
       </mesh>
 
       <mesh position={[0.6, 0, 0.1]} castShadow={false} receiveShadow={false}>
         <circleGeometry args={[1.3, 50]} />
-        <meshStandardMaterial color={"black"} />
+        <meshBasicMaterial color={"black"} />
       </mesh>
     </>
   );
